@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'TT hoves';
+    color: #222222;
+}
+
+body {
+    background-image: url(../Images/html_css_js.png);
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: 30vw;
+}
+
+.courseInfo {
+    margin-left: 121px;
+    margin-top: 37px;
+}
+
+.logo {
+    min-width: 295px;
+    margin-bottom: 85px;
+}
+
+.courseStart {
+    display: flex;
+    flex-direction: row;
+    gap: 161px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+}
+
+h1 {
+    font-family: 'Chava';
+    font-size: 80px;
+    margin-top: 78px;
+}
+
+.subtitle {
+    font-weight: 700;
+}
+
+p {
+    max-width: 930px;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 37.8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}   
+
+.primary {
+    background: #6E3ABA;
+    border-radius: 12px;
+    width: 328px;
+    padding: 20px 0;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.secondary {
+    background: #fff;
+    border:1px solid #6E3ABA;
+    border-radius: 12px;
+    width: 328px;
+    margin-left: 30px;
+    padding: 20px 0;
+    color: #6E3ABA;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2 {
+    max-width: 769px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    text-transform: uppercase;
+    margin-bottom: 95px;
+}
+
+/* Timer */
+
+.purple {
+    background: #6E3ABA;
+    text-align: center;
+    margin-top: 122px;
+
+  }
+  
+  .contentBlock.purple {
+    padding-top: calc(4.4vw + 23.4px);
+    padding-bottom: calc(5.2vw + 21.5px);
+    margin-bottom: calc(11vw + 18.5px);
+  }
+  
+  h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: calc(2vw + 26px);
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 80px;;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: calc(4vw + 4px);
+    margin-bottom: calc(4vw + 4px);
+  }
+  
+  .timerBlock {
+    color: #2F1D4E;
+  }
+  
+  .timerBlock .value {
+    font-family: 'Chava';
+    font-size: calc(12.6vw + 19px);
+    line-height: 107.5%;
+  }
+  
+  .timerBlock .desc {
+    font-size: 27px;
+    line-height: 118%;
+    text-transform: uppercase;
+  }
+  
+  .purple .secondary {
+    margin: 0px auto 88px;
+  }
