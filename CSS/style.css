@@ -1,143 +1,309 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'TT hoves';
-    color: #222222;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'TT hoves';
+  color: #222222;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 body {
-    background-image: url(../Images/html_css_js.png);
-    background-repeat: no-repeat;
-    background-position: top 121px right 58px;
-    background-size: 30vw;
+  background-image: url(../Images/html_css_js.png);
+  background-repeat: no-repeat;
+  background-position: top calc(4.8vw + 58.7px) right calc(5.9vw + 18px);
+  background-size: calc(23.8vw + 89.5px);
 }
 
-.courseInfo {
-    margin-left: 121px;
-    margin-top: 37px;
+section {
+  margin-left: calc(10.6vw - 15.8px);
 }
 
 .logo {
-    min-width: 295px;
-    margin-bottom: 85px;
+  max-width: calc(8.8vw + 181.8px);
+  margin-top: calc(0.33vw + 41px);
+  margin-bottom: calc(6.3vw + 4.4px);
 }
 
 .courseStart {
-    display: flex;
-    flex-direction: row;
-    gap: 161px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .start {
-    display: flex;
-    flex-direction: column;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 29.4px;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(0.5vw + 14px);
+  font-weight: 400;
+  line-height: 140%;
 }
 
 h1 {
-    font-family: 'Chava';
-    font-size: 80px;
-    margin-top: 78px;
+  font-family: 'Chava';
+  font-weight: 400;
+  font-size: calc(4.2vw + 26px);
+  margin-top: calc(3.1vw + 36.4px);
 }
 
 .subtitle {
-    font-weight: 700;
+  font-weight: 700;
+  line-height: 140%;
 }
 
-p {
-    max-width: 930px;
-    font-size: 27px;
-    font-weight: 300;
-    line-height: 37.8px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+.paragraf {
+  width: calc(66.5vw + 78.5px);
+  font-size: calc(1vw + 14.3px);
+  font-weight: 300;
+  line-height: 140%;
+  margin-top: calc(2.2vw + 11.7px);
 }   
 
+.button {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
 .primary {
-    background: #6E3ABA;
-    border-radius: 12px;
-    width: 328px;
-    padding: 20px 0;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
+  background: #6E3ABA;
+  border-radius: 12px;
+  border: none;
+  width: 328px;
+  padding: 20px 0;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .secondary {
-    background: #fff;
-    border:1px solid #6E3ABA;
-    border-radius: 12px;
-    width: 328px;
-    margin-left: 30px;
-    padding: 20px 0;
-    color: #6E3ABA;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
+  background: #fff;
+  border:1px solid #6E3ABA;
+  border-radius: 12px;
+  width: 328px;
+  margin-left: 30px;
+  padding: 20px 0;
+  color: #6E3ABA;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
-h2 {
-    max-width: 769px;
-    font-size: 58px;
-    font-weight: 500;
-    line-height: 68.32px;
-    text-transform: uppercase;
-    margin-bottom: 95px;
+
+/* Students */
+
+.studentsInfo {
+  margin-top: calc(11vw + 18.5px);
+}
+
+.studentsInfo h2 {
+  margin-bottom: calc(5.5vw + 19.3px);
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  line-height: 117%;
+  text-transform: uppercase;
+  max-width: 769px;
+}
+
+.students {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px 57px;
+  margin-top: 59px;
+  align-items: baseline;
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+  width: calc(13.8vw + 273px);
+}
+
+.students span {
+  font-size: calc(1vw + 14.3px);
+  font-weight: 600;
+  line-height: 140%;
+  max-width: 434px;
+}
+
+.students p {
+  font-size: calc(1vw + 14.3px);
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 477px;
+  margin-top: calc(1.10vw + 5.8px);
+}
+
+#boy {
+  width: calc(6.3vw + 206px);
+}
+
+#girl {
+  width: calc(5.2vw + 187px);
+}
+
+#boy2 {
+  width: calc(1.9vw + 168px);
+}
+
+#girl2 {
+  width: calc(4.75vw + 177px);
 }
 
 /* Timer */
 
 .purple {
-    background: #6E3ABA;
-    text-align: center;
-    margin-top: 122px;
+  background: #6E3ABA;
+  text-align: center;
+  margin-top: calc(11vw + 18.5px);
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: calc(5.2vw + 21.5px);
+}
 
+h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: calc(2vw + 26px);
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 80px;;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: calc(4vw + 4px);
+  margin-bottom: calc(4vw + 4px);
+}
+
+.timerBlock .value {
+  font-family: 'Chava';
+  font-size: calc(12.6vw + 19px);
+  color: #2F1D4E;
+  line-height: 107.5%;
+}
+
+.timerBlock .desc {
+  font-size: 27px;
+  font-weight: 500;
+  color: #2F1D4E;
+  line-height: 118%;
+  text-transform: uppercase;
+}
+
+.purple .secondary {
+  margin: 0px auto 88px;
+}
+
+
+/* Legend */
+
+.speaker {
+  margin-top: calc(11vw + 18.5px);
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+}
+
+.legendPhoto {
+}
+
+.legendInfo {
+  margin-left: calc(3vw + 12px);
+}
+
+h4 {
+  font-size: calc(1.1vw + 33.8px);
+  font-weight: 700;
+
+}
+
+.legendInfo p {
+  font-size: calc(1vw + 14.2px);
+  width: calc(26.3vw + 229.3px);
+  margin-top: calc(1.1vw + 5.8px);
+  margin-bottom: calc(5.5vw + 19.3px);
+}
+
+.skills {
+
+}
+
+.skill {
+}
+
+.skill img {
+  width: 36px;
+}
+
+.skill span {
+  font-size: calc(0.5vw + 13.9px);
+  line-height: 140%;
+  width: calc(10.4vw + 117px);
+}
+
+
+/* Programm */
+
+.courseProgram {
+  border: 2px solid black;
+  padding: 80px 64px 35px;
+  margin-top: calc(11vw + 18.5px);
+  margin-right: calc(7.9vw - 6.8px);
+  position: relative;
+}
+
+h2 {
+  margin-bottom: calc(5.5vw + 19.3px);
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  line-height: 117%;
+  text-transform: uppercase;
+}
+
+#corner {
+  width: 50px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.lessons {
+  list-style-type: none;
+  margin: 40px 0 34px;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.lessons li {
+  border-bottom: 1px solid #A1A1A1;
+  padding-bottom: 24px;
+  margin-top: 24px;
+}
+
+.desktop {
+  display: block;
+  margin: 0 auto;
+}
+
+.phone {
+  display: none;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 700px) {
+  .desktop {
+    display: none;
   }
-  
-  .contentBlock.purple {
-    padding-top: calc(4.4vw + 23.4px);
-    padding-bottom: calc(5.2vw + 21.5px);
-    margin-bottom: calc(11vw + 18.5px);
+  .phone {
+    display: block;
   }
-  
-  h3 {
-    color: #fff;
-    font-weight: 700;
-    font-size: calc(2vw + 26px);
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding-top: 80px;;
-  }
-  
-  .timer {
-    display: flex;
-    justify-content: space-around;
-    margin-top: calc(4vw + 4px);
-    margin-bottom: calc(4vw + 4px);
-  }
-  
-  .timerBlock {
-    color: #2F1D4E;
-  }
-  
-  .timerBlock .value {
-    font-family: 'Chava';
-    font-size: calc(12.6vw + 19px);
-    line-height: 107.5%;
-  }
-  
-  .timerBlock .desc {
-    font-size: 27px;
-    line-height: 118%;
-    text-transform: uppercase;
-  }
-  
-  .purple .secondary {
-    margin: 0px auto 88px;
-  }
-  
+}
