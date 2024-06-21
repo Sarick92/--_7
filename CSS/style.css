@@ -212,6 +212,7 @@ h3 {
 .legend {
   display: flex;
   flex-direction: row;
+  margin-top: calc(5.5vw + 19.3px);
 }
 
 .legendPhoto {
@@ -239,6 +240,7 @@ h4 {
 }
 
 .skill {
+
 }
 
 .skill img {
@@ -281,12 +283,7 @@ h4 {
   font-size: calc(1vw + 14px);
   line-height: 140%;
 }
-@media (max-width:700px) {
-  .benefits {
-    grid-template-columns: 1fr;
-  }
-  
-}
+
 
 /* Programm */
 
@@ -298,7 +295,6 @@ h4 {
 }
 
 h2 {
-  margin-bottom: calc(5.5vw + 19.3px);
   font-size: calc(2.6vw + 24px);
   font-weight: 500;
   line-height: 117%;
@@ -335,11 +331,91 @@ h2 {
   margin: 30px auto 0;
 }
 
+/* Diplom */
+
+.diploms {
+  margin-top: calc(11vw + 18.5px);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.diplomImage {
+  max-width: 430px;
+}
+
+.diplom {
+  margin-left: ;
+}
+
+.hdiplom {
+  max-width: 578px;
+  margin: 0;
+  padding: 0;
+}
+
+.diplom p {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 140%;
+  width: calc(20.5vw + 251px);
+}
+
+.price {
+  margin-top: calc(11vw + 18.5px);
+}
+
+.price h2 {
+  margin-bottom: calc(2.2vw + 11.7px);
+  max-width: 729px;
+}
+
+.price p {
+  max-width: 876px;
+  font-size: calc(1vw + 14px);
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.price span {
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.price img {
+  width: calc(81vw + 22.6px);
+  margin-top: calc(1.7vw + 13px);
+}
+
 @media (max-width: 700px) {
   .desktop {
     display: none;
   }
   .phone {
     display: block;
+  }
+  .students{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .benefits {
+    grid-template-columns: 1fr;
+  }
+  .diploms {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-areas: 
+    "h2"
+    "diplomimage"
+    "p";
+  }
+  .item1 {
+    grid-area: h2;
+  }
+  .item2 {
+    grid-area: diplomimage;
+  }
+  .item3 {
+    grid-area: p;
   }
 }
