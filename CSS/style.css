@@ -404,18 +404,5 @@ h2 {
   .diploms {
     display: grid;
     grid-template-columns: repeat(1, auto);
-    grid-template-areas: 
-    "h2"
-    "diplomimage"
-    "p";
-  }
-  .item1 {
-    grid-area: h2;
-  }
-  .item2 {
-    grid-area: diplomimage;
-  }
-  .item3 {
-    grid-area: p;
   }
 }
