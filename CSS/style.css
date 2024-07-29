@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
   box-sizing: border-box;
   font-family: 'TT hoves';
   color: #222222;
@@ -12,10 +12,10 @@ main {
   flex-direction: column;
 }
 
-body {
+.courseInfo {
   background-image: url(../Images/html_css_js.png);
   background-repeat: no-repeat;
-  background-position: top calc(4.8vw + 58.7px) right calc(5.9vw + 18px);
+  background-position: top calc(4.8vw + 58.7px) right calc(0.9vw + 6px);
   background-size: calc(23.8vw + 89.5px);
 }
 

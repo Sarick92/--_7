@@ -28,3 +28,5 @@ function saleData() {
     saleData();
   }, 1000);
   
+
+
